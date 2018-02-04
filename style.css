@@ -40,6 +40,16 @@
 }
 */
 
+.display-bottomleft {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.text-white {
+	color: #FFF!important;
+}
+
 .white {
 	color:#000!important;
 	background-color:#fff!important;
