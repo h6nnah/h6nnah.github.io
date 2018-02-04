@@ -34,11 +34,11 @@ h1, h2, h3 {
 }
 
 #nav {
-	width: 170px;
+	background-color: white;
+	width: 180px;
 	float: left;
-	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7); 
-	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7);
 	padding: 10px;
+	color: #757575;
 }
 
 #nav ul {
@@ -51,11 +51,12 @@ h1, h2, h3 {
 }
 
 #main {
+	background-color: white;
 	width: 600px;
 	float: right;
-	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7); 
-	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7);
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
 	padding: 10px;
+	color: #757575;
 }
 
 #footer {
