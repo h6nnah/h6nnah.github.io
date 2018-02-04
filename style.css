@@ -1,39 +1,15 @@
-html {
-	box-sizing: border-box;
-}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
-*,*: before,*:after{
-	box-sizing: inherit;
-}
-html {
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
+/*div {
+  overflow: auto;
+  float: right;
+}*/
 
-body {
-	margin: 0
-}
-a {
-	background-color: transparent;
-	-webkit-text-decoration-skip: objects;
-}
-html,body {
-	font-family: Verdana,sans-serif;
-	font-size: 15px;
-	line-height: 1.5
-}
-
-html {
-	overflow-x: hidden
-}
-
-hr {
-	border: 0;
-	border-top: 1px solid #eee;
-	margin:20px 0;
-}
-
-.light-gray {
+}.light-gray {
 	color: #000!important;
 	background-color: #f1f1f1!important;
 }
@@ -53,7 +29,7 @@ hr {
   	font-size: 24pt;
   	font-weight: bold;
 	
-	position: absolute;
+	position:absolute;
 	left: 0;
 	bottom: 0;
 	content: "";
@@ -69,7 +45,6 @@ hr {
 .display-container:hover {
 	display: block;
 }
-
 .display-container:hover {
 	display:inline-block;
 }
@@ -129,7 +104,7 @@ hr {
 
 .twothird {
 	float: right;
-	width: 66.66666%;
+	width: 66.666666%;
 }
 
 .third {
@@ -145,12 +120,12 @@ a {
   	border: 0px;
 }
 
-h1 {font-size: 36px}
-h2 {font-size: 30px}
-h3 {font-size: 24px}
-h4 {font-size: 20px}
-h5 {font-size: 18px}
-h6 {font-size: 16px}
+h1{font-size:36px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family:"Segoe UI",Arial,sans-serif;
@@ -188,7 +163,7 @@ h1,h2,h3,h4,h5,h6 {
 	/*background-color: white;*/
 	padding:0 8px;
 	color: #757575;
-	float: left;
+	float: left;!important
 }
 
 #nav ul {
@@ -205,7 +180,7 @@ h1,h2,h3,h4,h5,h6 {
 	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
 	padding: 10px;
 	color: #757575;
-	float: right;
+	float: right!important;
 }
 
 #footer {
@@ -215,3 +190,5 @@ h1,h2,h3,h4,h5,h6 {
 	color: white;
 	text-align: right;
 }
+    clear: both;
+    }
