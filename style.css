@@ -3,6 +3,8 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+.center { text-align: center; }
+
 a {
 	text-decoration: none;
 	color: red;
@@ -10,11 +12,6 @@ a {
 
 h1, h2, h3 {
 	margin: 0;
-}
-
-#demo {
--webkit-box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8); 
-box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
 }
 
 #container {
@@ -37,6 +34,8 @@ box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
 #nav {
 	width: 180px;
 	float: left;
+	-webkit-box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
+	box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
 }
 
 #nav ul {
@@ -51,6 +50,8 @@ box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
 #main {
 	width: 600px;
 	float: right;
+	-webkit-box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
+	box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
 }
 
 #footer {
