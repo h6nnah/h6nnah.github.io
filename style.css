@@ -80,7 +80,7 @@
 .container:after,.container:before, .row-padding:after,.row-padding:before,{
 	content: "";
 	display: table;
-	clear: both;
+	/*clear: both;*/
 }
 
 .row-padding,.row-padding>.third,.row-padding>.twothird,.w3-row-padding>.w3-col {
