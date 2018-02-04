@@ -1,52 +1,66 @@
-body {
+.light-gray {
+	color: #000!important;
 	background-color: #f1f1f1!important;
-	font-family: Helvetica, Arial, sans-serif;
-	color:#000!important;
+}
+
+.content {
+	max-width: 980px;
+	margin: auto;
+}
+
+.margin-top {
+	margin-top: 16px!important;
 }
 
 .title {
 	background-color: white;
-  	color:#000!important;
+  	color: #000!important;
   	font-size: 24pt;
   	font-weight: bold;
 	
 	position:absolute;
-	left:0;
-	bottom:0;
-	content:"";
-	display:table;
-	clear:both;
+	left: 0;
+	bottom: 0;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .display-container {
-	position:relative;
-	display:block;
+	position: relative;
+}
+
+.display-container:hover {
+	display: block;
+}
+
+.display-container:hover {
 	display:inline-block;
 }
 
 .container {
-	padding:0.01em 16px;
-	max-width:980px;
-	margin:auto;
+	padding: 0.01em 16px;
+	max-width: 980px;
+	margin: auto;
 }
 
 .container:after,.container:before, .row-padding:after,.row-padding:before,{
-	content:"";
-	display:table;
-	clear:both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .row-padding,.row-padding>.third,.row-padding>.twothird,.w3-row-padding>.w3-col {
-	padding:0 8px;
+	padding: 0 8px;
 }
 
 .third,.twothird {
-	float:left;
-	width:100%;
+	float: left;
+	width: 100%;
 }
 
 .third {
-	width:33.33333%;
+	width: 33.33333%;
 }
 
 .center { text-align: center; }
