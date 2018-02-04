@@ -36,8 +36,9 @@ h1, h2, h3 {
 #nav {
 	width: 180px;
 	float: left;
-	-webkit-box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
-	box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7); 
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7);
+	padding: 10px;
 }
 
 #nav ul {
@@ -52,8 +53,9 @@ h1, h2, h3 {
 #main {
 	width: 600px;
 	float: right;
-	-webkit-box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
-	box-shadow: 0px 5px 22px 0px rgba(40,40,40,0.8);
+	-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7); 
+	box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.7);
+	padding: 10px;
 }
 
 #footer {
