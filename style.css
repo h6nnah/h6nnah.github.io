@@ -1,3 +1,9 @@
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+
 .light-gray {
 	color: #000!important;
 	background-color: #f1f1f1!important;
