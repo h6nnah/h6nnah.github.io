@@ -72,39 +72,53 @@ a {
   	border: 0px;
 }
 
-h1, h2, h3 {
-	margin: 0;
+h1{font-size:36px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{font-size:18px}
+h6{font-size:16px}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight:400;
+	margin:10px 0;
 }
 
 #container {
+	/*
 	background-color: #EEE;
 	max-width: 980px;
 	margin: auto;
 	margin-top: 16px!important;
+	*/
 }
 
 #header {
+	/*
 	background-color: #66CCFF;
 	color: white;
 	text-align: center;
 	padding: 10px;
+	*/
 }
 #content {
+	/*
 	padding:0 8px;
 	content:"";
 	display:table;
 	clear:both
+	*/
 }
 
 #nav {
+	/*
 	background-color: white;
 	width: 100%;
 	float: left;
 	padding:0 8px
 	color: #757575;
-}
-#nav @media {
-	width:33.33333%
+	*/
 }
 
 #nav ul {
@@ -117,12 +131,14 @@ h1, h2, h3 {
 }
 
 #main {
+	/*
 	background-color: white;
 	width: 600px;
 	float: right;
 	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
 	padding: 10px;
 	color: #757575;
+	*/
 }
 
 #footer {
