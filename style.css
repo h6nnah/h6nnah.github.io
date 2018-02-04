@@ -4,7 +4,7 @@ body {
 	color:#000!important;
 }
 
-b.title {
+.title {
 	background-color: white;
   	color:#000!important;
   	font-size: 24pt;
@@ -17,6 +17,23 @@ b.title {
 	display:table;
 	clear:both;
 }
+
+.display-container {
+	position:relative;
+	display:block;
+	display:inline-block;
+}
+
+.container {
+	padding:0.01em 16px
+}
+
+.container:after,.ontainer:before{
+	content:"";
+	display:table;
+	clear:both;
+}
+
 .center { text-align: center; }
 
 a {
