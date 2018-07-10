@@ -88,6 +88,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .center { text-align: center; }
 
+.bottom-space { padding-bottom: 20px; }
+
+.cell { vertical-align: top; }
+
 a {
 	text-decoration: none;
 	color: #006666;
