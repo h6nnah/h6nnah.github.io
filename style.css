@@ -88,7 +88,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .center { text-align: center; }
 
-.bottom-space { padding-bottom: 20px; }
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	padding: 10px;
+}
+
+.bottom-space { padding-bottom: 25px; }
 
 .cell { vertical-align: top; }
 
@@ -143,6 +151,30 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #nav a {
+  font-size:20px;
+  font-family:"Segoe UI",Arial,sans-serif;
+  font-weight:400;
+  margin:10px 0;
+}
+
+#nav-mobile {
+	padding:0 8px;
+	color: #757575;
+	float: left!important;
+	height: 100%;
+	width: 100%;
+}
+
+#nav-mobile ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav-mobile .selected {
+  font-weight: 600;
+}
+
+#nav-mobile a {
   font-size:20px;
   font-family:"Segoe UI",Arial,sans-serif;
   font-weight:400;
